@@ -1,0 +1,19 @@
+:root {
+    --bg: #0f0f0f;
+    --main: #FF6F1D;
+}
+
+body {
+    background: var(--bg);
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+    height: 1080px;
+    margin: auto;
+    border-right: 8px solid var(--main);
+    border-left: 8px solid var(--main);
+}
