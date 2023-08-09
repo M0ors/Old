@@ -14,7 +14,7 @@
 .logo img {
     width: 106px;
     height: 48px;
-    position: fixed;
+    position: absolute;
     flex-shrink: 0;
 }
 
@@ -25,20 +25,20 @@
 }
 
 .base {
-    position: fixed;
+    position: absolute;
 }
 
 .planet1 {
-    position: fixed;
+    position: absolute;
     margin: 62px 0 0 221px;
 }
 
 .planet2 {
-    position: fixed;
+    position: absolute;
     margin: 144px 0 0 52px;
 }
 
 .planet3 {
-    position: fixed;
+    position: absolute;
     margin: 55px 0 0 87px;
 }

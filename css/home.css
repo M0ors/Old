@@ -28,7 +28,8 @@ body {
 .rocketfire {
     width: 540px;
     height: 740px;
-    margin: auto;
+    margin: 0 0 0 -30px;
+    padding: 80px 0 0;
 }
 
 .rocket {
@@ -90,10 +91,18 @@ body {
     }
 }
 
+.text {
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+    height: 890px;
+    max-width: 1000px;
+    margin: auto;
+}
+
 .lefttext {
-    width: 212px;
-    margin: 104px auto 0;
-    padding: 0 800px 0 0;
+    min-width: 212px;
+    max-width: 212px;
 }
 
 .lefttext p {
@@ -103,4 +112,20 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.righttext {
+    min-width: 212px;
+    max-width: 212px;
+    padding: 140px 0 0;
+}
+
+.righttext p {
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
 }
