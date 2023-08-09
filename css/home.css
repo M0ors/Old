@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-SemiBold.ttf) format('truetype');
+}
+
 :root {
     --bg: #0f0f0f;
-    --main: #FF6F1D;
+    --main: #ff6f1d;
+    --text: #d9d9d9;
 }
 
 body {
@@ -12,8 +18,89 @@ body {
 
 .container {
     width: 1000px;
-    height: 1080px;
+    height: 100%;
+    min-height: 1080px;
     margin: auto;
     border-right: 8px solid var(--main);
     border-left: 8px solid var(--main);
+}
+
+.rocketfire {
+    width: 540px;
+    height: 740px;
+    margin: auto;
+}
+
+.rocket {
+    position: absolute;
+}
+
+.fire {
+    position: absolute;
+    margin: 366px 0 0 212px;
+    animation-duration: 4s;
+    animation-name: glow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0px 0px 0px #FF6F1D00);
+    }
+  
+    10% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D70);
+    }
+
+    20% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D10);
+    }
+
+    30% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D50);
+    }
+
+    40% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D90);
+    }
+
+    50% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D30);
+    }
+
+    60% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D00);
+    }
+
+    70% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D40);
+    }
+
+    80% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D20);
+    }
+
+    90% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D60);
+    }
+
+    100% {
+        filter: drop-shadow(0px 0px 50px #FF6F1D70);
+    }
+}
+
+.lefttext {
+    width: 212px;
+    margin: 104px auto 0;
+    padding: 0 800px 0 0;
+}
+
+.lefttext p {
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
