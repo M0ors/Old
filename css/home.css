@@ -191,6 +191,7 @@ body {
 
     to {
         transform: translate(10px,-15px);
+        height: 445px;
     }
 }
 
