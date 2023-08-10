@@ -25,6 +25,14 @@ body {
     }
 }
 
+@media only screen and (max-height: 880px){
+    body {
+        overflow: unset;
+        max-height: 1080px;
+        min-height: 1080px;
+    }
+}
+
 .container {
     width: 1000px;
     min-height: 1080px;
