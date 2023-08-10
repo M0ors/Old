@@ -18,6 +18,12 @@ body {
     overflow: hidden;
 }
 
+@media only screen and (max-height: 1440px){
+    body {
+        overflow: hidden;
+    }
+}
+
 .container {
     width: 1000px;
     min-height: 1080px;
