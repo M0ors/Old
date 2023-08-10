@@ -35,7 +35,7 @@ body {
 
 .container {
     width: 1000px;
-    min-height: 1080px;
+    min-height: 1414px;
     height: 100vh;
     margin: auto;
     border-right: 8px solid var(--main);
@@ -161,7 +161,7 @@ body {
 
 @media only screen and (max-height: 880px){
     .bottom {
-        height: 335px;
+        height: 430px;
         overflow: hidden;
     }
 }
