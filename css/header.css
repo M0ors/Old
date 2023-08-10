@@ -78,3 +78,33 @@
     position: absolute;
     margin: 55px 0 0 87px;
 }
+
+.planets a p {
+    position: absolute;
+    transform: rotate(-30deg);
+    color: var(--text);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 100ms;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.planets a:hover p {
+    opacity: 1;
+}
+
+.home {
+    margin: 125px 0 0 32px;
+}
+
+.projects {
+    margin: 35px 0 0 45px;
+}
+
+.contact {
+    margin: 42px 0 0 178px;
+}
