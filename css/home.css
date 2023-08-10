@@ -130,9 +130,10 @@ body {
 
 .bottom {
     position: absolute;
-    margin: 560px 0 0 -500px;
+    margin: -530px 0 0 -500px;
     width: 760px;
     height: 450px;
+    padding: 100vh 0 0 0;
     overflow: hidden;
 }
 
