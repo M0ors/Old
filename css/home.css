@@ -17,6 +17,14 @@ body {
     max-height: 100vh;
 }
 
+@media only screen and (max-height: 1080px){
+    .planet {
+        overflow: hidden;
+        max-height: 1080px;
+        min-height: 1080px;
+    }
+}
+
 .container {
     width: 1000px;
     min-height: 1080px;
@@ -138,10 +146,4 @@ body {
 .planet {
     width: 760px;
     height: 760px;
-}
-
-@media only screen and (min-height: 1440px){
-    .planet {
-        overflow: hidden;
-    }
 }
