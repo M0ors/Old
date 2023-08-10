@@ -18,7 +18,7 @@ body {
 }
 
 @media only screen and (max-height: 1080px){
-    .body {
+    body {
         overflow: hidden;
         max-height: 1080px;
         min-height: 1080px;
