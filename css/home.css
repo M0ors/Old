@@ -128,3 +128,10 @@ body {
     line-height: normal;
     text-align: right;
 }
+
+.bottom {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin: -250px 0 0 -100px;
+}
