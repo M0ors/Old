@@ -159,6 +159,13 @@ body {
     margin: 570px 0 0 -500px;
 }
 
+@media only screen and (max-height: 880px){
+    .bottom {
+        height: 335px;
+        overflow: hidden;
+    }
+}
+
 .planet {
     width: 760px;
     height: 760px;
