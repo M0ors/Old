@@ -17,7 +17,7 @@ body {
     max-height: 100vh;
 }
 
-@media only screen and (max-height: 1080px){
+@media only screen and (min-height: 880px){
     body {
         overflow: hidden;
         max-height: 1080px;
@@ -32,6 +32,14 @@ body {
     margin: auto;
     border-right: 8px solid var(--main);
     border-left: 8px solid var(--main);
+}
+
+@media only screen and (max-height: 880px){
+    .container {
+        overflow: hidden;
+        max-height: 1080px;
+        min-height: 1080px;
+    }
 }
 
 .rocketfire {
