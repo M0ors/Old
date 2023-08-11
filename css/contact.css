@@ -133,6 +133,7 @@ body {
 .lefttext {
     min-width: 629px;
     max-width: 629px;
+    z-index: 1;
 }
 
 .lefttext p {
@@ -149,6 +150,7 @@ body {
     min-width: 629px;
     max-width: 629px;
     margin: 500px 0 0;
+    z-index: 1;
 }
 
 .righttext p {
@@ -204,6 +206,11 @@ body {
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-timing-function: linear;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .lowerplanet3 {
@@ -217,6 +224,11 @@ body {
     animation-iteration-count: infinite;
     animation-direction: reverse;
     animation-timing-function: linear;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 @media only screen and (max-width: 1600px){
