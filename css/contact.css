@@ -144,7 +144,7 @@ body {
     }
 }
 
-.planet {
+.lowerplanet {
     width: 300vw;
     height: 230vw;
     animation-duration: 2s;
@@ -156,15 +156,65 @@ body {
     filter: blur(80px);
 }
 
+.lowerplanet2 {
+    margin: -250px 0;
+    width: 300vw;
+    height: 230vw;
+    position: absolute;
+    animation-duration: 14s;
+    animation-name: bounce3;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+.lowerplanet3 {
+    margin: -250px 0;
+    width: 300vw;
+    height: 230vw;
+    position: absolute;
+    animation-duration: 11s;
+    animation-name: bounce3;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+@media only screen and (max-width: 1600px){
+    .lowerplanet2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .lowerplanet3 {
+        display: none;
+    }
+}
+
 @media only screen and (max-height: 880px){
-    .planet {
+    .lowerplanet2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 880px){
+    .lowerplanet3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 880px){
+    .lowerplanet {
         margin: 20px;
         height: 230vw;
         filter: blur(0px);
     }
 }
 
-.planet1 {
+.lowerplanet1 {
     width: 300vw;
     height: 230vw;
     position: absolute;
@@ -177,7 +227,7 @@ body {
 }
 
 @media only screen and (max-height: 880px){
-    .planet1 {
+    .lowerplanet1 {
         margin: 20px;
         height: 230vw;
     }
@@ -190,5 +240,31 @@ body {
 
     to {
         transform: translate(0px,-20px);
+    }
+}
+
+@keyframes bounce3 {
+    0% {
+        transform: rotate(0deg) translate(0px,0px);
+    }
+
+    10% {
+        opacity: 0.5;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0.7;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(360deg) translate(0px,-20px);
     }
 }
