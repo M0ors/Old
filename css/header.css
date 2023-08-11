@@ -142,7 +142,7 @@
 
 @keyframes text1 {
     0% {
-        transform: translate(0px,14px)rotate(-30deg);
+        transform: translate(1px,14px)rotate(-30deg);
     }
     
     100% {
@@ -152,11 +152,11 @@
 
 @keyframes text2 {
     0% {
-        transform: translate(-3px,2px)rotate(-30deg);
+        transform: translate(-3px,0px)rotate(-30deg);
     }
     
     100% {
-        transform: translate(12px,-7px)rotate(-30deg);
+        transform: translate(12px,-10px)rotate(-30deg);
     }
 }
 
