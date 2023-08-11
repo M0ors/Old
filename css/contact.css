@@ -139,6 +139,12 @@ body {
         margin: -25vh 0 0 0;
         position: absolute;
         max-height: 220px;
+        animation-duration: 2s;
+        animation-name: bounce2;
+        animation-delay: 650ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
     }
 }
 
@@ -151,6 +157,12 @@ body {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+}
+
+@media only screen and (max-height: 880px){
+    .planet {
+        animation-name: none;
+    }
 }
 
 @keyframes bounce2 {
