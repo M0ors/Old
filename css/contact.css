@@ -136,15 +136,13 @@ body {
 
 @media only screen and (max-height: 880px){
     .bottom {
-        margin: -25vh 0 0 0;
+        margin: -200px 0 0 0;
+        align-items: flex-start;
         position: absolute;
-        max-height: 220px;
-        animation-duration: 2s;
-        animation-name: bounce2;
-        animation-delay: 650ms;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        animation-timing-function: ease-in-out;
+        overflow: hidden;
+        min-width: 100vw;
+        max-width: 1016px;
+        max-height: 200px;
     }
 }
 
@@ -161,7 +159,8 @@ body {
 
 @media only screen and (max-height: 880px){
     .planet {
-        animation-name: none;
+        margin: 20px;
+        height: 230vw;
     }
 }
 
