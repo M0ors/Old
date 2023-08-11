@@ -69,16 +69,31 @@
 .planet1 {
     position: absolute;
     margin: 62px 0 0 221px;
+    animation-name: spinslow1;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .planet2 {
     position: absolute;
     margin: 144px 0 0 52px;
+    animation-name: spinslow2;
+    animation-duration: 3.5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .planet3 {
     position: absolute;
     margin: 55px 0 0 87px;
+    animation-name: spinslow3;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .planets a p {
@@ -109,4 +124,44 @@
 
 .contact {
     margin: 42px 0 0 178px;
+}
+
+@keyframes spinslow1 {
+    0% {
+        rotate: -20deg;
+        transform: translate(0px,0px);
+    }
+
+    100% {
+        rotate: 20deg;
+        transform: translate(8px,4px);
+    }
+}
+
+@keyframes spinslow2 {
+    0% {
+        rotate: -10deg;
+        transform: translate(2px,12px);
+    }
+
+    100% {
+        rotate: 10deg;
+        transform: translate(-4px,0px);
+    }
+}
+
+@keyframes spinslow3 {
+    0% {
+        rotate: 0deg;
+        transform: translate(0px,0px);
+    }
+
+    50% {
+        rotate: 12deg;
+    }
+
+    100% {
+        rotate: 16deg;
+        transform: translate(12px,-14px);
+    }
 }
