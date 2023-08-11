@@ -144,13 +144,7 @@ body {
 
 @media only screen and (max-height: 880px){
     .bottom {
-        margin: -1040px 0 0 0;
-    }
-}
-
-@media only screen and (max-height: 1350px){
-    .bottom {
-        margin: -1170px 0 0 0;
+        margin: -980px 0 0 0;
     }
 }
 
