@@ -27,7 +27,7 @@ body {
 
 @media only screen and (max-height: 880px){
     body {
-        overflow: unset;
+        overflow-x: hidden;
         max-height: 1080px;
         min-height: 1080px;
     }
@@ -130,7 +130,7 @@ body {
     display: flex;
     justify-content: center;
     position: fixed;
-    margin: -40px 0 0 0;
+    margin: -240px 0 0 0;
     max-width: 100vw;
 }
 
