@@ -129,8 +129,8 @@ body {
 .bottom {
     display: flex;
     justify-content: center;
-    position: absolute;
-    margin: -1080px 0 0 0;
+    position: fixed;
+    margin: -1020px 0 0 0;
     max-width: 100vw;
     height: 1120px;
     overflow: hidden;
@@ -148,6 +148,12 @@ body {
     }
 }
 
+@media only screen and (max-height: 1350px){
+    .bottom {
+        margin: -1170px 0 0 0;
+    }
+}
+
 @keyframes bounce2 {
     from {
         transform: translate(0px,0px);
@@ -161,5 +167,5 @@ body {
 
 .planet {
     width: 300vw;
-    height: 2000px;
+    height: 1450px;
 }
