@@ -142,21 +142,21 @@
 
 @keyframes text1 {
     0% {
-        transform: translate(1px,14px)rotate(-30deg);
+        transform: translate(3px,12px)rotate(-30deg);
     }
     
     100% {
-        transform: translate(-6px,0px)rotate(-30deg);
+        transform: translate(-4px,0px)rotate(-30deg);
     }
 }
 
 @keyframes text2 {
     0% {
-        transform: translate(-3px,0px)rotate(-30deg);
+        transform: translate(-1px,-1px)rotate(-30deg);
     }
     
     100% {
-        transform: translate(12px,-10px)rotate(-30deg);
+        transform: translate(14px,-11px)rotate(-30deg);
     }
 }
 
