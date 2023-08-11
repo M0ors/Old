@@ -98,7 +98,6 @@
 
 .planets a p {
     position: absolute;
-    transform: rotate(-30deg);
     color: var(--text);
     font-family: Poppins;
     font-size: 18px;
@@ -107,7 +106,7 @@
     line-height: normal;
     transition: 200ms;
     text-decoration: none;
-    opacity: 0;
+    opacity: 1;
 }
 
 .planets a:hover p {
@@ -116,14 +115,59 @@
 
 .home {
     margin: 125px 0 0 32px;
+    animation-name: text1;
+    animation-duration: 3.5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .projects {
     margin: 35px 0 0 45px;
+    animation-name: text2;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .contact {
     margin: 42px 0 0 178px;
+    animation-name: text3;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text1 {
+    0% {
+        transform: translate(0px,14px)rotate(-30deg);
+    }
+    
+    100% {
+        transform: translate(-6px,0px)rotate(-30deg);
+    }
+}
+
+@keyframes text2 {
+    0% {
+        transform: translate(-3px,2px)rotate(-30deg);
+    }
+    
+    100% {
+        transform: translate(12px,-7px)rotate(-30deg);
+    }
+}
+
+@keyframes text3 {
+    0% {
+        transform: translate(-2px,0px)rotate(-30deg);
+    }
+    
+    100% {
+        transform: translate(5px,6px)rotate(-30deg);
+    }
 }
 
 @keyframes spinslow1 {

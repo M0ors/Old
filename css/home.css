@@ -96,12 +96,14 @@ body {
     }
 
     20% {
-        filter: drop-shadow(0px 0px 50px #FF6F1D10);
+        filter: drop-shadow(0px 0px 50px #FF6F1D10)
+        blur(3px);
         transform: scale(0.98,0.98);
     }
 
     30% {
-        filter: drop-shadow(0px 0px 50px #FF6F1D50);
+        filter: drop-shadow(0px 0px 50px #FF6F1D50)
+        blur(3px);
     }
 
     40% {
@@ -118,11 +120,13 @@ body {
     }
 
     70% {
-        filter: drop-shadow(0px 0px 50px #FF6F1D40);
+        filter: drop-shadow(0px 0px 50px #FF6F1D40)
+        blur(3px);
     }
 
     80% {
-        filter: drop-shadow(0px 0px 50px #FF6F1D20);
+        filter: drop-shadow(0px 0px 50px #FF6F1D20)
+        blur(3px);
         transform: scale(0.98,0.98);
     }
 
