@@ -1,13 +1,74 @@
-<svg width="3076" height="694" viewBox="0 0 3076 694" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_f_38_3)">
-<path d="M100 397C100 318.231 251.503 242.688 521.18 186.99C790.858 131.291 1156.62 100 1538 100C1919.38 100 2285.14 131.291 2554.82 186.989C2824.5 242.688 2976 318.231 2976 397L1538 397L100 397Z" fill="#FF6F1D"/>
-</g>
-<path d="M100 397C100 318.231 251.503 242.688 521.18 186.99C790.858 131.291 1156.62 100 1538 100C1919.38 100 2285.14 131.291 2554.82 186.989C2824.5 242.688 2976 318.231 2976 397L1538 397L100 397Z" fill="#FF6F1D"/>
-<defs>
-<filter id="filter0_f_38_3" x="0" y="0.00012207" width="3076" height="497" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_38_3"/>
-</filter>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2060"
+   height="255"
+   viewBox="0 0 2060 255"
+   fill="none"
+   version="1.1"
+   id="svg52"
+   sodipodi:docname="Planet2.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview54"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="1139"
+     inkscape:cy="194"
+     inkscape:window-width="3440"
+     inkscape:window-height="1417"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg52" />
+  <g
+     filter="url(#filter0_f_38_3)"
+     id="g39"
+     transform="translate(0,69.999817)">
+    <path
+       d="m 70,185 c 0,-78.769 0,0 0,-28 269.677,-55.698 578.619,-86.9998 960,-86.9998 381.38,0 690.32,31.3018 960,86.9998 0,28 0,-50.769 0,28 H 1030 550 Z"
+       fill="#ff6f1d"
+       id="path37" />
+  </g>
+  <path
+     d="m 70,254.99957 v -97.99934 c 269.677,-55.698 578.619,-86.999799 960,-86.999799 381.38,0 690.32,31.301799 960,86.999799 v 97.99934 H 1030 550 Z"
+     fill="#ff6f1d"
+     id="path41"
+     sodipodi:nodetypes="ccsccccc" />
+  <defs
+     id="defs50">
+    <filter
+       id="filter0_f_38_3"
+       x="0"
+       y="0.000183105"
+       width="2060"
+       height="255"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood43" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend45" />
+      <feGaussianBlur
+         stdDeviation="35"
+         result="effect1_foregroundBlur_38_3"
+         id="feGaussianBlur47" />
+    </filter>
+  </defs>
 </svg>
