@@ -75,13 +75,50 @@ body {
     position: absolute;
 }
 
-.beam {
+.beam1 {
     position: absolute;
-    margin: 366px 0 0 212px;
-    animation-duration: 4s;
-    animation-name: glow;
+    margin: 240px 0 0 200px;
+    animation-duration: 1s;
+    animation-name: beam1;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    filter: blur(4px)
+}
+
+@keyframes beam1 {
+    from {
+        transform: translate(0px,0px);
+    }
+
+    to {
+        transform: translate(0px,-20px);
+    }
+}
+
+
+.beam2 {
+    position: absolute;
+    width: 240px;
+    margin: 340px 0 0 180px;
+    animation-duration: 1s;
+    animation-name: beam1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 200ms;
+    filter: blur(5px)
+}
+
+.beam3 {
+    position: absolute;
+    width: 280px;
+    margin: 440px 0 0 160px;
+    animation-duration: 1s;
+    animation-name: beam1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 400ms;
+    filter: blur(6px)
 }
 
 .text {
