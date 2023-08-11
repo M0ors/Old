@@ -144,7 +144,7 @@ body {
 
 @media only screen and (max-height: 880px){
     .bottom {
-        margin: -980px 0 0 0;
+        margin: -1040px 0 0 0;
     }
 }
 
@@ -159,6 +159,8 @@ body {
     }
 }
 
+
+@media only screen and (max-height: 1250px){
 .planet {
     width: 300vw;
     height: 1450px;
