@@ -98,10 +98,16 @@ body {
     margin: -840px 0 0 0;
 }
 
-@media only screen and (max-height: 1200px){
+@media only screen and (max-height: 880px){
     .lab {
         margin: -640px 0 0 0;
     }
+}
+
+@media only screen and (max-height: 1200px) {
+    .lab {
+        margin: -800px 0 0 0;
+    }    
 }
 
 .lab1 {
@@ -150,7 +156,7 @@ body {
 
 @media only screen and (max-height: 1200px){
     .scope {
-        margin: 100px 0 0 0;
+        margin: -50px 0 0 0;
         animation-name: scope2;
         object-fit: cover;
         object-position: top;
