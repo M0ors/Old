@@ -1,0 +1,23 @@
+<svg width="826" height="318" viewBox="0 0 826 318" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_11_51)">
+<line x1="10.2657" y1="11.0359" x2="264.266" y2="81.0359" stroke="white" stroke-width="2"/>
+<line x1="264.106" y1="81.0056" x2="499.106" y2="106.006" stroke="white" stroke-width="2"/>
+<line x1="498.95" y1="106.001" x2="815.95" y2="90.0013" stroke="white" stroke-width="2"/>
+<line x1="499.944" y1="106.671" x2="569.944" y2="307.671" stroke="white" stroke-width="2"/>
+<line x1="568.844" y1="307.012" x2="789.844" y2="272.012" stroke="white" stroke-width="2"/>
+<line x1="789.01" y1="272.859" x2="815.01" y2="90.8586" stroke="white" stroke-width="2"/>
+</g>
+<line x1="10.2657" y1="11.0359" x2="264.266" y2="81.0359" stroke="white" stroke-width="2"/>
+<line x1="264.106" y1="81.0056" x2="499.106" y2="106.006" stroke="white" stroke-width="2"/>
+<line x1="498.95" y1="106.001" x2="815.95" y2="90.0013" stroke="white" stroke-width="2"/>
+<line x1="499.944" y1="106.671" x2="569.944" y2="307.671" stroke="white" stroke-width="2"/>
+<line x1="568.844" y1="307.012" x2="789.844" y2="272.012" stroke="white" stroke-width="2"/>
+<line x1="789.01" y1="272.859" x2="815.01" y2="90.8586" stroke="white" stroke-width="2"/>
+<defs>
+<filter id="filter0_f_11_51" x="0" y="0.0718994" width="826" height="317.928" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_11_51"/>
+</filter>
+</defs>
+</svg>
