@@ -49,3 +49,100 @@ body {
         min-height: 1080px;
     }
 }
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+    height: 668px;
+    max-width: 1000px;
+    margin: -170px auto 0;
+}
+
+.lefttext {
+    min-width: 629px;
+    max-width: 629px;
+    z-index: 1;
+}
+
+.lefttext p {
+    color: var(--text);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.righttext {
+    position: relative;
+    min-width: 629px;
+    max-width: 629px;
+    margin: 250px 0 0 -370px;
+    z-index: 1;
+}
+
+.righttext p {
+    color: var(--text);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+}
+
+.lab {
+    display: flex;
+    justify-content: center;
+}
+
+.lab1 {
+    position: absolute;
+    top: calc(100vh - 1180px);
+}
+
+.lab2 {
+    position: absolute;
+    top: calc(100vh - 1180px);
+}
+
+@media only screen and (max-height: 880px){
+    .lab1 {
+        top: calc(100vh - 200px);
+    }
+}
+
+@media only screen and (max-height: 880px){
+    .lab2 {
+        top: calc(100vh - 200px);
+    }
+}
+
+.scope {
+    position: absolute;
+    top: calc(100vh - 1425px);
+    transform-origin: bottom;
+    animation-duration: 4s;
+    animation-name: scope;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@media only screen and (max-height: 880px){
+    .scope {
+        top: calc(100vh - 450px);
+    }
+}
+
+@keyframes scope {
+    0% {
+        transform: rotate(10deg) translate(25px,50px);
+    }
+
+    100% {
+        transform: rotate(60deg) translate(220px,0px);
+        
+    }
+}

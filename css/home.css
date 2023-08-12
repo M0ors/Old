@@ -97,13 +97,13 @@ body {
 
     20% {
         filter: drop-shadow(0px 0px 50px #FF6F1D10)
-        blur(3px);
+        blur(2px);
         transform: scale(0.98,0.98);
     }
 
     30% {
         filter: drop-shadow(0px 0px 50px #FF6F1D50)
-        blur(3px);
+        blur(2px);
     }
 
     40% {
@@ -121,12 +121,12 @@ body {
 
     70% {
         filter: drop-shadow(0px 0px 50px #FF6F1D40)
-        blur(3px);
+        blur(2px);
     }
 
     80% {
         filter: drop-shadow(0px 0px 50px #FF6F1D20)
-        blur(3px);
+        blur(2px);
         transform: scale(0.98,0.98);
     }
 
@@ -150,6 +150,7 @@ body {
 .lefttext {
     min-width: 212px;
     max-width: 212px;
+    z-index: 1;
 }
 
 .lefttext p {
@@ -165,6 +166,7 @@ body {
     min-width: 212px;
     max-width: 212px;
     padding: 140px 0 0;
+    z-index: 1;
 }
 
 .righttext p {
