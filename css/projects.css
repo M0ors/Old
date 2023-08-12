@@ -99,29 +99,31 @@ body {
 
 .lab1 {
     position: absolute;
-    top: calc(100vh - 1180px);
+    top: calc(100vh - 400px);
 }
 
 .lab2 {
     position: absolute;
-    top: calc(100vh - 1180px);
+    top: calc(100vh - 400px);
 }
 
 @media only screen and (max-height: 880px){
     .lab1 {
         top: calc(100vh - 200px);
+        padding: 100px 0 0 0;
     }
 }
 
 @media only screen and (max-height: 880px){
     .lab2 {
         top: calc(100vh - 200px);
+        padding: 100px 0 0 0;
     }
 }
 
 .scope {
     position: absolute;
-    top: calc(100vh - 1425px);
+    top: calc(100vh - 640px);
     transform-origin: bottom;
     animation-duration: 4s;
     animation-name: scope;
@@ -132,7 +134,7 @@ body {
 
 @media only screen and (max-height: 880px){
     .scope {
-        top: calc(100vh - 450px);
+        top: calc(100vh - 340px);
     }
 }
 
