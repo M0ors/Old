@@ -95,46 +95,62 @@ body {
 .lab {
     display: flex;
     justify-content: center;
+    margin: -840px 0 0 0;
+}
+
+@media only screen and (max-height: 1200px){
+    .lab {
+        margin: -640px 0 0 0;
+    }
 }
 
 .lab1 {
-    position: absolute;
-    top: calc(100vh - 400px);
+    position: relative;
+    top: calc(100vh - 350px);
+    margin: 0 -740px 0 0;
 }
 
 .lab2 {
-    position: absolute;
-    top: calc(100vh - 400px);
+    position: relative;
+    top: calc(100vh - 350px);
 }
 
 @media only screen and (max-height: 880px){
     .lab1 {
         top: calc(100vh - 200px);
-        padding: 100px 0 0 0;
+        padding: 150px 0 0 0;
     }
 }
 
 @media only screen and (max-height: 880px){
     .lab2 {
         top: calc(100vh - 200px);
-        padding: 100px 0 0 0;
+        padding: 150px 0 0 0;
     }
 }
 
 .scope {
     position: absolute;
-    top: calc(100vh - 640px);
+    top: calc(100vh - 585px);
     transform-origin: bottom;
     animation-duration: 4s;
     animation-name: scope;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+    margin: -365px 0 0 0;
 }
 
 @media only screen and (max-height: 880px){
     .scope {
         top: calc(100vh - 340px);
+        padding: 50px 0 0 0;
+    }
+}
+
+@media only screen and (max-height: 1200px){
+    .scope {
+        margin: -153px 0 0 0;
     }
 }
 
