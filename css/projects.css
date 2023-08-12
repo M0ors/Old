@@ -118,14 +118,14 @@ body {
 @media only screen and (max-height: 880px){
     .lab1 {
         top: calc(100vh - 200px);
-        padding: 150px 0 0 0;
+        padding: 0 0 0 0;
     }
 }
 
 @media only screen and (max-height: 880px){
     .lab2 {
         top: calc(100vh - 200px);
-        padding: 150px 0 0 0;
+        padding: 0 0 0 0;
     }
 }
 
@@ -143,8 +143,8 @@ body {
 
 @media only screen and (max-height: 880px){
     .scope {
-        top: calc(100vh - 340px);
-        padding: 50px 0 0 0;
+        top: calc(100vh - 440px);
+        padding: 0 0 0 0;
     }
 }
 
