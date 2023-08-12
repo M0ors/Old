@@ -182,7 +182,7 @@ body {
     }
 
     100% {
-        transform: rotate(60deg) translate(335px,-60px);
+        transform: rotate(60deg) translate(300px,-80px);
         
     }
 }
