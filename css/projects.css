@@ -134,7 +134,7 @@ body {
     top: calc(100vh - 585px);
     transform-origin: bottom;
     animation-duration: 4s;
-    animation-name: scope;
+    animation-name: scope1;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
@@ -151,16 +151,32 @@ body {
 @media only screen and (max-height: 1200px){
     .scope {
         margin: 100px 0 0 0;
+        animation-name: scope2;
+        object-fit: cover;
+        object-position: top;
+        width: 180px;
+        height: 230px;
     }
 }
 
-@keyframes scope {
+@keyframes scope1 {
     0% {
         transform: rotate(10deg) translate(25px,50px);
     }
 
     100% {
         transform: rotate(60deg) translate(220px,0px);
+        
+    }
+}
+
+@keyframes scope2 {
+    0% {
+        transform: rotate(10deg) translate(25px,50px);
+    }
+
+    100% {
+        transform: rotate(60deg) translate(335px,-60px);
         
     }
 }
