@@ -9,6 +9,11 @@
     --text: #d9d9d9;
 }
 
+.header {
+    border-right: none;
+    border-left: none;
+}
+
 body {
     background: var(--bg);
     margin: 0;

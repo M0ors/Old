@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-between;
     z-index: 1;
+    border-right: 8px solid var(--main);
+    border-left: 8px solid var(--main);
 }
 
 .logo {
