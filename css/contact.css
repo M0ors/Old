@@ -27,7 +27,7 @@ body {
 
 @media only screen and (max-height: 880px){
     body {
-        overflow-x: hidden;
+        overflow: unset;
         max-height: 1080px;
         min-height: 1080px;
     }
@@ -35,8 +35,8 @@ body {
 
 .container {
     width: 1000px;
-    min-height: 1080px;
-    height: 100vh;
+    min-height: 1414px;
+    height: 115vh;
     margin: auto;
     border-right: 8px solid var(--main);
     border-left: 8px solid var(--main);
@@ -48,83 +48,6 @@ body {
         max-height: 1080px;
         min-height: 1080px;
     }
-}
-
-.ufobeam {
-    height: 740px;
-    margin: 0 0 0 -565px;
-    padding: 230px 0 0;
-    animation-duration: 2s;
-    animation-name: bounce;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes bounce {
-    from {
-        transform: translate(0px,10px);
-    }
-
-    to {
-        transform: translate(0px,-10px);
-    }
-}
-
-.ufo {
-    position: absolute;
-}
-
-.beam1 {
-    position: absolute;
-    margin: 240px 0 0 200px;
-    animation-duration: 1s;
-    animation-name: beam1;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    filter: blur(2px);
-    opacity: 0;
-}
-
-@keyframes beam1 {
-    0% {
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-
-    80% {
-        transform: translate(0px,-20px);
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-
-.beam2 {
-    position: absolute;
-    width: 240px;
-    margin: 350px 0 0 180px;
-    animation-duration: 1s;
-    animation-name: beam1;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 550ms;
-    filter: blur(2px)
-}
-
-.beam3 {
-    position: absolute;
-    width: 280px;
-    margin: 460px 0 0 160px;
-    animation-duration: 1s;
-    animation-name: beam1;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 1100ms;
-    filter: blur(2px)
 }
 
 .text {
@@ -155,7 +78,7 @@ body {
     position: relative;
     min-width: 629px;
     max-width: 629px;
-    margin: 500px 0 0;
+    margin: 250px 0 0 -370px;
     z-index: 1;
 }
 
@@ -169,157 +92,97 @@ body {
     text-align: right;
 }
 
-.bottom {
+.lab {
     display: flex;
     justify-content: center;
-    position: fixed;
-    margin: -240px 0 0 0;
-    max-width: 100vw;
+    margin: -840px 0 0 0;
+}
+
+@media only screen and (max-height: 1200px) {
+    .lab {
+        margin: -800px 0 0 0;
+    }    
 }
 
 @media only screen and (max-height: 880px){
-    .bottom {
-        margin: -200px 0 0 0;
-        align-items: flex-start;
-        position: absolute;
-        overflow: hidden;
-        min-width: 100vw;
-        max-width: 1016px;
-        max-height: 200px;
+    .lab {
+        margin: -640px 0 0 0;
     }
 }
 
-.lowerplanet {
-    width: 300vw;
-    height: 230vw;
-    animation-duration: 2s;
-    animation-name: bounce2;
-    animation-delay: 650ms;
+.lab1 {
+    position: relative;
+    top: calc(100vh - 350px);
+    margin: 0 -740px 0 0;
+}
+
+.lab2 {
+    position: relative;
+    top: calc(100vh - 350px);
+}
+
+@media only screen and (max-height: 880px){
+    .lab1 {
+        top: calc(100vh - 200px);
+        padding: 0 0 0 0;
+    }
+}
+
+@media only screen and (max-height: 880px){
+    .lab2 {
+        top: calc(100vh - 200px);
+        padding: 0 0 0 0;
+    }
+}
+
+.scope {
+    position: absolute;
+    top: calc(100vh - 585px);
+    transform-origin: bottom;
+    animation-duration: 4s;
+    animation-name: scope1;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-    filter: blur(80px);
+    margin: -100px 0 0 0;
 }
 
-.lowerplanet2 {
-    margin: -250px 0;
-    width: 300vw;
-    height: 230vw;
-    position: absolute;
-    animation-duration: 14s;
-    animation-name: bounce3;
-    animation-delay: 0ms;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: linear;
-    -khtml-user-select: none;
-    -o-user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-.lowerplanet3 {
-    margin: -250px 0;
-    width: 300vw;
-    height: 230vw;
-    position: absolute;
-    animation-duration: 11s;
-    animation-name: bounce3;
-    animation-delay: 0ms;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-    -khtml-user-select: none;
-    -o-user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-@media only screen and (max-width: 1600px){
-    .lowerplanet2 {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1600px){
-    .lowerplanet3 {
-        display: none;
+@media only screen and (max-height: 1200px){
+    .scope {
+        margin: -50px 0 0 0;
+        animation-name: scope2;
+        object-fit: cover;
+        object-position: top;
+        width: 180px;
+        height: 230px;
     }
 }
 
 @media only screen and (max-height: 880px){
-    .lowerplanet2 {
-        display: none;
+    .scope {
+        top: calc(100vh - 440px);
+        margin: 120px 0 0 0;
     }
 }
 
-@media only screen and (max-height: 880px){
-    .lowerplanet3 {
-        display: none;
-    }
-}
-
-@media only screen and (max-height: 880px){
-    .lowerplanet {
-        margin: 20px;
-        height: 230vw;
-        filter: blur(0px);
-    }
-}
-
-.lowerplanet1 {
-    width: 300vw;
-    height: 230vw;
-    position: absolute;
-    animation-duration: 2s;
-    animation-name: bounce2;
-    animation-delay: 650ms;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-}
-
-@media only screen and (max-height: 880px){
-    .lowerplanet1 {
-        margin: 20px;
-        height: 230vw;
-    }
-}
-
-@keyframes bounce2 {
-    from {
-        transform: translate(0px,0px);
-    }
-
-    to {
-        transform: translate(0px,-20px);
-    }
-}
-
-@keyframes bounce3 {
+@keyframes scope1 {
     0% {
-        transform: rotate(0deg) translate(0px,0px);
-    }
-
-    10% {
-        opacity: 0.5;
-    }
-
-    30% {
-        opacity: 1;
-    }
-
-    60% {
-        opacity: 0.7;
-    }
-
-    90% {
-        opacity: 1;
+        transform: rotate(10deg) translate(25px,50px);
     }
 
     100% {
-        transform: rotate(360deg) translate(0px,-20px);
+        transform: rotate(60deg) translate(220px,0px);
+        
+    }
+}
+
+@keyframes scope2 {
+    0% {
+        transform: rotate(10deg) translate(25px,50px);
+    }
+
+    100% {
+        transform: rotate(60deg) translate(300px,-80px);
+        
     }
 }

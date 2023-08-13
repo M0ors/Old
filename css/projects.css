@@ -36,7 +36,7 @@ body {
 .container {
     width: 1000px;
     min-height: 1414px;
-    height: 115vh;
+    height: 100vh;
     margin: auto;
     border-right: 8px solid var(--main);
     border-left: 8px solid var(--main);
@@ -49,6 +49,7 @@ body {
         min-height: 1080px;
     }
 }
+
 
 .text {
     display: flex;
@@ -78,7 +79,7 @@ body {
     position: relative;
     min-width: 629px;
     max-width: 629px;
-    margin: 250px 0 0 -370px;
+    margin: 650px 0 0 -370px;
     z-index: 1;
 }
 
@@ -92,97 +93,124 @@ body {
     text-align: right;
 }
 
-.lab {
-    display: flex;
-    justify-content: center;
-    margin: -840px 0 0 0;
-}
-
-@media only screen and (max-height: 1200px) {
-    .lab {
-        margin: -800px 0 0 0;
-    }    
-}
-
-@media only screen and (max-height: 880px){
-    .lab {
-        margin: -640px 0 0 0;
-    }
-}
-
-.lab1 {
-    position: relative;
-    top: calc(100vh - 350px);
-    margin: 0 -740px 0 0;
-}
-
-.lab2 {
-    position: relative;
-    top: calc(100vh - 350px);
-}
-
-@media only screen and (max-height: 880px){
-    .lab1 {
-        top: calc(100vh - 200px);
-        padding: 0 0 0 0;
-    }
-}
-
-@media only screen and (max-height: 880px){
-    .lab2 {
-        top: calc(100vh - 200px);
-        padding: 0 0 0 0;
-    }
-}
-
-.scope {
+.planetring {
     position: absolute;
-    top: calc(100vh - 585px);
-    transform-origin: bottom;
-    animation-duration: 4s;
-    animation-name: scope1;
+    margin: 90px 0 0 0;
+    animation-duration: 6s;
+    animation-name: bounce;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-    margin: -100px 0 0 0;
 }
 
-@media only screen and (max-height: 1200px){
-    .scope {
-        margin: -50px 0 0 0;
-        animation-name: scope2;
-        object-fit: cover;
-        object-position: top;
-        width: 180px;
-        height: 230px;
+@keyframes bounce {
+    from {
+        transform: rotate(-2deg) translate(0px,0px);
+    }
+
+    to {
+        transform: rotate(2deg) translate(20px,-20px);
     }
 }
 
-@media only screen and (max-height: 880px){
-    .scope {
-        top: calc(100vh - 440px);
-        margin: 120px 0 0 0;
-    }
+.ring1 {
+    position: absolute;
+    margin: 220px 0 0 52px;
+    mix-blend-mode: screen;
 }
 
-@keyframes scope1 {
+.ring2 {
+    position: absolute;
+    margin: 243px 0 0 52px;
+    mix-blend-mode: screen;
+}
+
+.planet {
+    position: absolute;
+    margin: 100px 0 0 190px;
+    animation-duration: 3s;
+    animation-name: bounce1;
+    animation-delay: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce1 {
     0% {
-        transform: rotate(10deg) translate(25px,50px);
+        transform: translate(0px,0px);
     }
 
     100% {
-        transform: rotate(60deg) translate(220px,0px);
-        
+        transform: translate(0px,-10px);
     }
 }
 
-@keyframes scope2 {
+.lang {
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    margin: 110px 0 0 160px;
+    animation-duration: 10s;
+    animation-name: lang;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+.lang1 {
+    position: absolute;
+    animation-duration: 10s;
+    animation-name: lang2;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    left: -10px;
+    top: 0px;
+}
+
+.lang2 {
+    position: absolute;
+    animation-duration: 10s;
+    animation-name: lang2;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    right: 100px;
+    bottom: 475px;
+}
+
+.lang3 {
+    position: absolute;
+    animation-duration: 10s;
+    animation-name: lang2;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    right: 300px;
+    bottom: 490px;
+}
+
+@keyframes lang{
     0% {
-        transform: rotate(10deg) translate(25px,50px);
+        transform:rotate(-15deg) scaleY(.2) rotate(0deg);
+    }
+
+    60% {
+        z-index: 1;
     }
 
     100% {
-        transform: rotate(60deg) translate(300px,-80px);
-        
+        transform:rotate(-15deg) scaleY(.2) rotate(360deg);
+    }
+}
+
+@keyframes lang2{
+    0% {
+        transform:rotate(0deg) scaleY(5) rotate(15deg) scale(0.5);
+    }
+
+    100% {
+        transform:rotate(-360deg) scaleY(5) rotate(15deg) scale(0.5);
     }
 }
