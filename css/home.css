@@ -40,6 +40,8 @@ body {
     margin: auto;
     border-right: 8px solid var(--main);
     border-left: 8px solid var(--main);
+    z-index: 1;
+    position: relative;
 }
 
 @media only screen and (max-height: 880px){
@@ -122,7 +124,7 @@ body {
     animation-name: beam1;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-delay: 1100ms;
+    animation-delay: 1200ms;
     filter: blur(2px)
 }
 

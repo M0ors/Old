@@ -170,7 +170,7 @@ body {
     animation-direction: reverse;
     animation-timing-function: linear;
     left: -10px;
-    top: 0px;
+    top: -5px;
 }
 
 .lang2 {
@@ -180,8 +180,8 @@ body {
     animation-iteration-count: infinite;
     animation-direction: reverse;
     animation-timing-function: linear;
-    right: 100px;
-    bottom: 475px;
+    right: 90px;
+    bottom: 460px;
 }
 
 .lang3 {
