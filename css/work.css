@@ -127,18 +127,6 @@ body {
     animation-timing-function: linear;
 }
 
-.html {
-    position: absolute;
-    width: 550px;
-    height: 450px;
-    margin: 110px 0 0 160px;
-    animation-duration: 10s;
-    animation-name: lang3;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-}
-
 .lang1 {
     position: absolute;
     animation-duration: 10s;
@@ -164,7 +152,7 @@ body {
 .lang3 {
     position: absolute;
     animation-duration: 10s;
-    animation-name: lang4;
+    animation-name: lang2;
     animation-iteration-count: infinite;
     animation-direction: reverse;
     animation-timing-function: linear;
@@ -187,30 +175,6 @@ body {
 }
 
 @keyframes lang2{
-    0% {
-        transform:rotate(0deg) scaleY(5) rotate(15deg) scale(0.5);
-    }
-
-    100% {
-        transform:rotate(-360deg) scaleY(5) rotate(15deg) scale(0.5);
-    }
-}
-
-@keyframes lang3{
-    0% {
-        transform:rotate(-15deg) scaleY(.2) rotate(0deg);
-    }
-
-    60% {
-        z-index: 2;
-    }
-
-    100% {
-        transform:rotate(-15deg) scaleY(.2) rotate(360deg);
-    }
-}
-
-@keyframes lang4{
     0% {
         transform:rotate(0deg) scaleY(5) rotate(15deg) scale(0.5);
     }
