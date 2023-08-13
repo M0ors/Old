@@ -1,6 +1,7 @@
 .header {
     position: relative;
     max-width: 1000px;
+    min-width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
