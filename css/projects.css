@@ -9,7 +9,7 @@
     --text: #d9d9d9;
 }
 
-.header {
+#header {
     border-right: none;
     border-left: none;
 }
