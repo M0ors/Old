@@ -135,7 +135,6 @@ body {
     margin: 100px 0 0 190px;
     animation-duration: 3s;
     animation-name: bounce1;
-    animation-delay: 1000ms;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
