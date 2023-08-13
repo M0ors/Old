@@ -95,8 +95,8 @@ body {
 
 .planetring {
     position: absolute;
-    margin: 70px 0 0 0;
-    animation-duration: 2s;
+    margin: 90px 0 0 0;
+    animation-duration: 6s;
     animation-name: bounce;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -105,11 +105,11 @@ body {
 
 @keyframes bounce {
     from {
-        transform: translate(0px,0px);
+        transform: rotate(-2deg) translate(0px,0px);
     }
 
     to {
-        transform: translate(0px,-20px);
+        transform: rotate(2deg) translate(20px,-20px);
     }
 }
 
@@ -128,7 +128,7 @@ body {
 .planet {
     position: absolute;
     margin: 100px 0 0 190px;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: bounce1;
     animation-delay: 1000ms;
     animation-iteration-count: infinite;
@@ -142,7 +142,7 @@ body {
     }
 
     100% {
-        transform: translate(0px,20px);
+        transform: translate(0px,-10px);
     }
 }
 
