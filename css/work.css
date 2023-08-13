@@ -96,6 +96,21 @@ body {
 .planetring {
     position: absolute;
     margin: 70px 0 0 0;
+    animation-duration: 2s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate(0px,0px);
+    }
+
+    to {
+        transform: translate(0px,-20px);
+    }
 }
 
 .ring1 {
@@ -113,6 +128,22 @@ body {
 .planet {
     position: absolute;
     margin: 100px 0 0 190px;
+    animation-duration: 2s;
+    animation-name: bounce1;
+    animation-delay: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce1 {
+    0% {
+        transform: translate(0px,0px);
+    }
+
+    100% {
+        transform: translate(0px,20px);
+    }
 }
 
 .lang {
