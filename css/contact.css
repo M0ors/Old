@@ -9,9 +9,9 @@
     --text: #d9d9d9;
 }
 
-#header {
-    border-right: none;
-    border-left: none;
+.header {
+    border-right: none!important;
+    border-left: none!important;
 }
 
 body {
