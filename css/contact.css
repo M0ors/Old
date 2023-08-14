@@ -47,19 +47,11 @@ body {
     border-left: 8px solid var(--main);
 }
 
-@media only screen and (max-height: 880px){
+@media only screen and (max-height: 880px) {
     .container {
         overflow: hidden;
-        max-height: 1080px;
-        min-height: 1080px;
-    }
-}
-
-@media only screen and (max-height: 800px) {
-    .container {
-        overflow: hidden;
-        max-height: 1240px;
-        min-height: 1240px;
+        max-height: 1244px;
+        min-height: 1244px;
     }
 }
 
@@ -212,5 +204,84 @@ body {
     100% {
         transform: rotate(60deg) translate(300px,-80px);
         
+    }
+}
+
+.stars {
+    position: absolute;
+    margin: -100px 0 0 450px;
+}
+
+.star1 {
+    position: absolute;
+    margin: -125px 0 0 300px;
+    animation-duration: 4s;
+    animation-name: flash;
+    animation-delay: 100ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.star2 {
+    position: absolute;
+    margin: 50px 0 0 -355px;
+    animation-duration: 4s;
+    animation-name: flash;
+    animation-delay: 1100ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.star3 {
+    position: absolute;
+    margin: -250px 0 0 -270px;
+    animation-duration: 4s;
+    animation-name: flash;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.star4 {
+    position: absolute;
+    margin: 0 0 0 425px;
+    animation-duration: 4s;
+    animation-name: flash;
+    animation-delay: 2100ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.star5 {
+    position: absolute;
+    margin: -100px 0 0 -75px;
+    animation-duration: 4s;
+    animation-name: flash;
+    animation-delay: 3100ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+@keyframes flash {
+    0% {
+        transform: translate(0px,0px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0px,-20px);
+        opacity: 0;
     }
 }

@@ -99,6 +99,10 @@
     animation-iteration-count: infinite;
 }
 
+.planets a {
+    z-index: 99;
+}
+
 .planets a p {
     position: absolute;
     color: var(--text);
