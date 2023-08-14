@@ -112,7 +112,7 @@ body {
 
 @media only screen and (max-height: 880px){
     .lab {
-        margin: -150px 0 0 0;
+        margin: -120px 0 0 0;
         position: absolute;
         width: 1015px;
         height: 400px;
@@ -123,7 +123,19 @@ body {
 
 @media only screen and (min-height: 1280px){
     .lab {
+        margin: 9vh 0 0 0;
+    }
+}
+
+@media only screen and (min-height: 1500px){
+    .lab {
         margin: 20vh 0 0 0;
+    }
+}
+
+@media only screen and (min-height: 1700px){
+    .lab {
+        margin: 28vh 0 0 0;
     }
 }
 
