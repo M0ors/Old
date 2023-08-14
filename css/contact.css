@@ -55,6 +55,14 @@ body {
     }
 }
 
+@media only screen and (max-height: 800px) {
+    .container {
+        overflow: hidden;
+        max-height: 1240px;
+        min-height: 1240px;
+    }
+}
+
 .text {
     display: flex;
     justify-content: space-between;
@@ -100,73 +108,76 @@ body {
 .lab {
     display: flex;
     justify-content: center;
-    margin: -840px 0 0 0;
-}
-
-@media only screen and (max-height: 1200px) {
-    .lab {
-        margin: -800px 0 0 0;
-    }    
 }
 
 @media only screen and (max-height: 880px){
     .lab {
-        margin: -640px 0 0 0;
+        margin: -150px 0 0 0;
+        position: absolute;
+        width: 1015px;
+        height: 400px;
+        overflow: hidden;
+        padding: 200px 0 0 0;
+    }
+}
+
+@media only screen and (min-height: 1280px){
+    .lab {
+        margin: 20vh 0 0 0;
+    }
+}
+
+@media only screen and (min-height: 2000px){
+    .lab {
+        margin: 32vh 0 0 0;
+    }
+}
+
+@media only screen and (min-height: 2000px){
+    .lab {
+        margin: 40vh 0 0 0;
     }
 }
 
 .lab1 {
-    position: relative;
-    top: calc(100vh - 350px);
-    margin: 0 -740px 0 0;
+    position: absolute;
+}
+
+.lab1 {
+    position: absolute;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 .lab2 {
-    position: relative;
-    top: calc(100vh - 350px);
+    position: absolute;
 }
 
 @media only screen and (max-height: 880px){
     .lab1 {
-        top: calc(100vh - 200px);
         padding: 0 0 0 0;
     }
 }
 
 @media only screen and (max-height: 880px){
     .lab2 {
-        top: calc(100vh - 200px);
         padding: 0 0 0 0;
     }
 }
 
 .scope {
     position: absolute;
-    top: calc(100vh - 585px);
     transform-origin: bottom;
     animation-duration: 4s;
     animation-name: scope1;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-    margin: -100px 0 0 0;
-}
-
-@media only screen and (max-height: 1200px){
-    .scope {
-        margin: -50px 0 0 0;
-        animation-name: scope2;
-        object-fit: cover;
-        object-position: top;
-        width: 180px;
-        height: 230px;
-    }
+    margin: -245px 0 0 0;
 }
 
 @media only screen and (max-height: 880px){
     .scope {
-        top: calc(100vh - 440px);
-        margin: 120px 0 0 0;
+        margin: -245px 0 0 0;
     }
 }
 
