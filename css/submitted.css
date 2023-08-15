@@ -161,7 +161,7 @@ body {
 .lefttext p {
     color: var(--text);
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -182,6 +182,24 @@ body {
     font-weight: 600;
     line-height: normal;
     text-align: right;
+}
+
+.explore {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.explore p {
+    width: 73px;
+    padding: 10px;
+    background: var(--main);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
 }
 
 .bottom {

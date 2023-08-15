@@ -106,7 +106,7 @@ body {
 .error {
     display: none;
     position: absolute;
-    margin: -55px 0 0 310px;
+    margin: -55px 0 0 275px;
     color: var(--main)!important;
 }
 
