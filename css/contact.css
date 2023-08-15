@@ -55,7 +55,7 @@ body {
     }
 }
 
-.text {
+.contactform {
     display: flex;
     justify-content: space-between;
     width: 890px;
@@ -95,6 +95,70 @@ body {
     font-weight: 600;
     line-height: normal;
     text-align: right;
+}
+
+.contactform input {
+    background: var(--bg);
+    border: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--text);
+}
+
+.contactform textarea {
+    background: none;
+    border: none;
+    cursor: auto;
+}
+
+.name {
+    color: var(--text);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 300px;
+}
+
+.email {
+    color: var(--text);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 300px;
+}
+
+.comments {
+    color: var(--text);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 612px;
+    height: 100px;
+    margin: 0 0 0 14px;
+    resize: none;
+}
+
+.comments::-webkit-scrollbar {
+    width: 8px;
+}
+
+.comments::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+
+.comments::-webkit-scrollbar-thumb {
+    background: var(--main);
 }
 
 .lab {
