@@ -103,6 +103,17 @@ body {
     border: none;
 }
 
+.error {
+    display: none;
+    position: absolute;
+    margin: -55px 0 0 310px;
+    color: var(--main)!important;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid ~ .error {
+    display: block;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
@@ -124,7 +135,7 @@ input:-webkit-autofill:active{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 300px;
+    width: 265px;
 }
 
 .email {
