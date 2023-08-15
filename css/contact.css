@@ -6,6 +6,7 @@
 :root {
     --bg: #0f0f0f;
     --main: #ff6f1d;
+    --alt: #cc4b00;
     --text: #d9d9d9;
 }
 
@@ -147,6 +148,24 @@ input:-webkit-autofill:active{
     height: 100px;
     margin: 0 0 0 14px;
     resize: none;
+}
+
+.send {
+    color: var(--text);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+    background: var(--main);
+    border: none;
+    margin: 0 0 0 565px;
+}
+
+.send:hover {
+    background: var(--alt);
+    cursor: pointer;
 }
 
 .comments::-webkit-scrollbar {
