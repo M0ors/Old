@@ -49,9 +49,8 @@ body {
 
 @media only screen and (max-height: 880px){
     .container {
-        overflow: hidden;
-        max-height: 1080px;
-        min-height: 1080px;
+        max-height: 1280px;
+        min-height: 1280px;
     }
 }
 
