@@ -161,7 +161,7 @@ body {
 .lefttext p {
     color: var(--text);
     font-family: Poppins;
-    font-size: 38px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -170,7 +170,7 @@ body {
 .righttext {
     min-width: 212px;
     max-width: 212px;
-    padding: 140px 0 0;
+    margin: 140px 0 0;
     z-index: 1;
 }
 

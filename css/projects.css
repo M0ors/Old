@@ -218,3 +218,89 @@ body {
         transform:rotate(-360deg) scaleY(5) rotate(15deg) scale(0.5);
     }
 }
+
+.projectlist {
+    overflow: hidden;
+    display: flex;
+    max-width: 1080px;
+    height: 500px;
+    margin: 0 0 0 -260px;
+}
+
+.slide {
+    display: inline-block;
+    background: var(--bg);
+    height: 500px;
+    width: 368.5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.slide a {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.projectimage {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.slide p {
+    position: absolute;
+    transition: 200ms;
+    opacity: 0;
+    z-index: 1;
+    background: var(--main);
+    padding: 10px;
+    margin: -47px 0 0 -368.5px;
+}
+
+.slide:not(:first-child) {
+    margin-left: -195px;
+}
+
+.slide:hover ~ .slide {
+    position: relative;
+    transform: translateX(195px);
+    transition: transform 200ms;
+}
+
+.slide:hover p {
+    opacity: 1;
+}
+
+.figma {
+    height: 60px;
+    width: 60px;
+    background: var(--bg);
+    margin: 0 0 47px 59.5px;
+    transition: 200ms;
+    opacity: 0;
+}
+
+.slide:hover .figma {
+    opacity: 1;
+}
+
+.github {
+    height: 60px;
+    width: 60px;
+    background: var(--bg);
+    margin: 0 0 107px 59.5px;
+    transition: 200ms;
+    opacity: 0;
+}
+
+.slide:hover .github {
+    opacity: 1;
+}
+
+
+.link {
+    width: 0;
+    height: 0;
+}
